@@ -119,7 +119,7 @@ header {
 .container {
     width: 100%;
     height: 100%;
-    padding: 50px;
+    padding: 30px;
 }
 
 .row {
@@ -184,7 +184,8 @@ FEATURED BOOKS
 */
 
 #features {
-    height: 1000px;
+    height: 500px;
+    margin-bottom: 50px;
 }
 
 .books {
@@ -240,4 +241,40 @@ FEATURED BOOKS
     text-decoration: line-through;
     color: #bebcbc;
     margin-right: 5px;
+}
+
+/*
+
+LATEST
+
+*/
+
+.book--row {
+display: flex;
+}
+
+.ending {
+    padding: 8px 12px;
+    background-color: #8c088c;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    border-style: none;
+    margin: 0 auto;
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foot {
+    margin-bottom: 40px;
+}
+
+.footerr {
+    height: 170px;
 }
